@@ -1,0 +1,58 @@
+### Inline Elements:
+
+1. `<a>`: Creates hyperlinks, allowing navigation to other web pages.
+2. `<abbr>`: Represents an abbreviation or acronym.
+3. `<b>`: Represents bold text (not recommended for semantic styling, use `<strong>` instead).
+4. `<bdo>`: Overrides the text direction of its content.
+5. `<br>`: Represents a line break within text.
+6. `<cite>`: Specifies the title of a creative work.
+7. `<code>`: Defines a piece of computer code.
+8. `<dfn>`: Represents the defining instance of a term.
+9. `<em>`: Indicates emphasized text, typically rendered as italicized.
+10. `<i>`: Represents italic text (historical usage, use `<em>` for semantic importance).
+11. `<img>`: Embeds an image on the page.
+12. `<input>`: Represents an interactive control for user input.
+13. `<kbd>`: Represents user input, typically keyboard input.
+14. `<label>`: Represents a label for an `<input>`, `<select>`, `<textarea>`, or `<button>` element.
+15. `<mark>`: Defines text that should be marked or highlighted.
+16. `<q>`: Represents a short inline quotation.
+17. `<samp>`: Represents sample output from a program or script.
+18. `<small>`: Represents small text.
+19. `<span>`: Generic inline container for styling purposes.
+20. `<strong>`: Represents strong importance, usually rendered as bold text.
+21. `<sub>`: Defines subscript text.
+22. `<sup>`: Defines superscript text.
+23. `<time>`: Represents a specific period in time or a range.
+24. `<var>`: Represents the name of a variable in programming.
+
+### Block Elements:
+
+1. `<address>`: Represents contact information for the author/owner of a document.
+2. `<article>`: Represents a self-contained piece of content that could be distributed and reused independently.
+3. `<aside>`: Represents content that is tangentially related to the content around it.
+4. `<blockquote>`: Represents a section that is a quotation from another source.
+5. `<details>`: Represents a disclosure widget from which the user can obtain additional information.
+6. `<dd>`: Represents a description or value in a definition list.
+7. `<div>`: Defines a division or a section in an HTML document.
+8. `<dl>`: Defines a definition list.
+9. `<dt>`: Represents a term or name in a definition list.
+10. `<fieldset>`: Groups related elements within a `<form>`.
+11. `<figcaption>`: Represents a caption or legend for a `<figure>` element.
+12. `<figure>`: Represents any content that is referenced from the main content, such as images and diagrams.
+13. `<footer>`: Represents a footer for a section or a page.
+14. `<form>`: Defines an HTML form for user input.
+15. `<h1>` to `<h6>`: Headings of different levels, indicating hierarchy.
+16. `<header>`: Represents a header for a section or a page.
+17. `<hgroup>`: Represents the heading of a section and any associated heading elements.
+18. `<hr>`: Represents a thematic break or horizontal line.
+19. `<li>`: Represents a list item within `<ul>` or `<ol>`.
+20. `<main>`: Represents the main content of a document.
+21. `<nav>`: Represents a navigation menu.
+22. `<ol>`: Defines an ordered list.
+23. `<p>`: Represents a paragraph of text.
+24. `<pre>`: Represents preformatted text, maintaining both spaces and line breaks.
+25. `<section>`: Represents a generic section of a document.
+26. `<table>`: Defines a table.
+27. `<tfoot>`: Represents the footer of a table.
+28. `<ul>`: Defines an unordered list.
+29. `<video>`: Embeds video content on the page.
