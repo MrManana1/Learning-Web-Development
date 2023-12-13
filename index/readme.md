@@ -12,6 +12,7 @@ This is a basic HTML page with a video player.
    ```bash
    git clone <repository-url>
    ```
+   
 
 2. Open the `index.html` file in your preferred web browser.
 
