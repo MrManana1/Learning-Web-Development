@@ -60,6 +60,7 @@ span, p {
 
 4. **`<p>` Element:**
 
+
 ```html
 <p>
     Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis odit sunt neque eius dolorem consequuntur, eos aliquid voluptatibus, dolorum placeat eum. Pariatur saepe totam sequi optio fuga aliquid asperiores, esse iste cumque, dolores voluptates.
