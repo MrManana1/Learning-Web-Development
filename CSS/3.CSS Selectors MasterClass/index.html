@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    /* Element Selector */
+    div{
+        background-color: red;
+    }
+    /* Class Selectors */
+    .yellow{
+        background-color: yellow;
+    }
+    /* ID Selector */
+    #green{
+        background-color: green;
+    }
+
+    /* Child Selectors */
+    div > p{
+        color: red;
+    }
+
+    /* Descendent Selector */
+    div span {
+        color: rgb(247, 247, 247);
+
+    }
+    /* Universal Selectors */
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    /* Pseudo Selectors */
+    a:link{
+        text-decoration: none;
+        }
+    a:visited{
+        color: rgb(223, 0, 0);
+    }
+    a:link{
+        color: green
+    }
+    a:hover{
+        color: blue;
+
+    }
+    li:first-child{
+        font-size: 50px;
+
+    }
+</style>
+<body>
+    <div>I am div</div>
+    <div>I am an other div</div>
+    <div class="yellow">i am div with yellow class
+        <p>i am a paragraph</p>
+    </div>
+    <div id="green">i am div with green id 
+        <span>
+            i am spam with Descendent Selector
+        </span>
+    </div>
+    <a href="https://google.com">Go to google</a>
+    <a href="https://linkedin.com">Go to Linkdin</a>
+
+    
+        <ul>
+            <li>Item 1</li>
+            <li>Item 2</li>
+        </ul>
+    
+</body>
+</html>
