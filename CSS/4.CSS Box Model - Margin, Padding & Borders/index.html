@@ -6,8 +6,21 @@
     <title>CSS Box Model - Margin, Padding & Borders</title>
 </head>
 <style>
-    box{
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .box{
         background-color: aqua;
+
+    }
+    .box1{
+        padding: 20px;
+        border: 2px solid red;
+        margin: 5px;
+        height: 200px;
+        width: 400px;
+        box-sizing: border-box;
     }
 </style>
 <body>
