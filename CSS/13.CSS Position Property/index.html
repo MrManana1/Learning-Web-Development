@@ -15,12 +15,21 @@
         }
         .box2{
             background-color: aquamarine;
+            position: relative;
+            left: 20px;
+            bottom: 40px;
         }
         .box3{
             background-color: beige;
+            position: relative;
+            left: 20px;
+            top: 40px;
         }
+
         .box4{
             background-color: blueviolet;
+            position: relative;
+            z-index: 1;
         }
         .box{
             border: 2px solid black;
@@ -30,6 +39,21 @@
             padding: 10px;
 
         }
+
+        .parentbx{
+            margin: 10px;
+            padding: 10px;
+            border: 2px solid purple;
+        }
+        .box5{
+            position: sticky;
+            top: 0px;
+            background-color: yellowgreen;
+        }
+
+        .box8{
+            height: 400px;
+        }
     </style>
 </head>
 <body>
@@ -37,6 +61,17 @@
     <div class="box box2"></div>
     <div class="box box3"></div>
     <div class="box box4"></div>
+
+
+    <hr>
+
+    <div class="parentbx">
+
+        <div class="box box5"></div>
+        <div class="box box6"></div>
+        <div class="box box7"></div>
+        <div class="box box8"></div>
+    </div>
     
 </body>
 </html>
